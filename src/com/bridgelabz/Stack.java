@@ -1,5 +1,4 @@
 package com.bridgelabz;
-import java.util.List;
 import java.util.Scanner;
 import com.bridgelabz.LinkedList;
 
@@ -23,8 +22,11 @@ public class Stack {
 				list.push(30);
 				list.push(56);
 				list.show();
+				int s=list.getSize();
+				for(int i=0; i<s; i++) {
 				list.pop();
 				list.show();
+				}
 				break;
 		}
 
